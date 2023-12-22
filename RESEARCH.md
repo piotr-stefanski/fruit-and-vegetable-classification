@@ -16,3 +16,14 @@ The work discusses accuracy of different classifiers, such as Support Vector Mac
 **Data set** (`Training Img data`, `Testing Img data`) -> **Preprocessing** (`Resizin`, `gray scale`, `edge protection`) -> **Feature extraction** (`Color`, `Binarization`, `Border`, `Texture`, `Threshold`) -> **Classifier** -> **Result**
 
 ---
+
+# High performance vegetable classification from images based on AlexNet deep learning model
+### URL: [link](https://www.ijabe.org/index.php/ijabe/article/view/2690/pdf)
+##### **Authors**: Ling Zhu, Zhenbo Li, Chen Li, Jing Wu, Jun Yue
+
+### Abstract and results:
+This work introduces a high-performance deep learning method for automatically classifying vegetable images. The study employs the AlexNet network model in Caffe, utilizing ImageNet data for training and testing. The use of Rectified Linear Units (ReLU) in the output function accelerates network training, and dropout technology enhances model generalization. Experimental results demonstrate that, with varying amounts of training data, the deep learning method achieves a 92.1% accuracy rate on the test set.
+### Methodology
+**Dataset** (`ImageNet`,`24000 images after data expansion`, `80% train`, `20% test`, `5 classes`) -> **Preprocessing** (`rotation`, `resize - 80x80`) -> **Classifier** (`Caffe Framework`, `AlexNet CNN`, `Rectified Linear Units (ReLU)`) -> **Result**
+
+---
