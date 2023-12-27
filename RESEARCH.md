@@ -37,5 +37,14 @@ This paper introduces a unified approach that can combine many features and clas
 ### Methodology
 **Dataset** (`Supermarket Produce`, `15 classes`) ->  **Image Descriptors** (`Global Color Histogram (GCH)`, `Unser’s descriptors`, `Color coherence vectors (CCVs)`, `Border/interior (BIC)`, `Appearance descriptors`) -> **Supervised learning techniques** (`Linear Discriminant Analysis (LDA)`, `Support Vector Machines (SVMs)`, `Classification Trees`, `Neural Networks (NNs)`) -> **Background substracion** (`Otsu`, `Meanshift`, `Normalized cuts`, `K means algorithm`)
 
+---
+
+## Hyperspectral fruit and vegetable classification using convolutional neural networks
+### URL: [link](https://www.sciencedirect.com/science/article/pii/S0168169918315680?casa_token=kVxl8ygp2vAAAAAA:qUzsHkNT_7_7AdtZ9hkVIoPgL71RpJ9mpWMqc_TIF7DK4m0Ay3WupFkYWRhdEjH6b6R219he)
+##### **Authors**: Jan Steinbrener, Konstantin Posch, Raimund Leitner
+### Abstract and results:
+The study employs pre-trained convolutional neural networks (CNNs) designed for RGB images to classify challenging fruits and vegetables with similar appearances using hyperspectral images. By fine-tuning the networks with a custom hyperspectral dataset and including a data compression layer, they achieved a notable increase in average classification accuracy from 88.15% to 92.23% (Kernel-model). This adaptable approach holds promise for broader applications beyond fruit and vegetable classification.
+### Methodology
+**Dataset** (`Custom Dataset`, `2700 images of 13 different classes`, `700 - Validation`, `2000 - Train`) -> **Preprocessing** (`resize - 256 x 256`, `rescalling`) -> **Classifier** (`Pseudo-RGB model`,`Linear combination model`,`Kernel-model`) -> **Results**
 
 ---
