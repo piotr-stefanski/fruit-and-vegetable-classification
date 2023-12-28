@@ -58,3 +58,13 @@ The study presents a method for fruit classification using Convolutional Neural 
 **Dataset** (`Custom Dataset`, `1067 images (725 train, 342 test)`, `3 fruit classes`, `bagged, unbagged`) -> **CNN Architecture** (`MobileNetV2`) -> **Transfer Learning** (`Weights from a model trained with the ImageNet dataset`) -> **Improving MobileNetV2** (`Single RGB Fruit Color``, RGB Histogram``, RGB Centroid Using K-Means`)
 
 ---
+
+## Fruit and Vegetable Identification Using Machine Learning for Retail Applications
+### URL:[link](https://arxiv.org/pdf/1810.09811.pdf)
+##### **Authors**: Frida Femling, Adam Olsson, Fernando Alonso-Fernandez
+### Abstract and results: 
+This is an industrial method for identifying fruits and vegetables in retail stores, utilizing cameras to capture images. The system assists customers in labeling selected fruits and vegetables with price tags based on their weight. Its goal is to reduce human-computer interactions, expedite the identification process, and enhance the user-friendliness of the graphical interface compared to current manual systems. The hardware comprises a Raspberry Pi, camera, display, load cell, and casing. Various convolutional neural networks were tested and retrained to classify objects. A heuristic evaluation involving multiple users concluded that the implemented system is more user-friendly than existing solutions.
+### Methodology:
+**Dataset** (`ImageNet`, `400 images per class (in addition 30 images per class have also been collected with the camera)`, `10 classes`) -> **Hardware** (`Raspberry Pi 64bit Quad Core 1.2GHz CPU and has 1GB of RAM, The camera has 8-megapixels`) -> **Convolutional Neural Networks** (`Inception v3`)
+
+
