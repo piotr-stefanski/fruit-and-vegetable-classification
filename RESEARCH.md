@@ -48,3 +48,13 @@ The study employs pre-trained convolutional neural networks (CNNs) designed for 
 **Dataset** (`Custom Dataset`, `2700 images of 13 different classes`, `700 - Validation`, `2000 - Train`) -> **Preprocessing** (`resize - 256 x 256`, `rescalling`) -> **Classifier** (`Pseudo-RGB model`,`Linear combination model`,`Kernel-model`) -> **Results**
 
 ---
+
+## Fruit Classification for Retail Stores Using Deep Learning
+### URL: [link](https://link.springer.com/chapter/10.1007/978-3-030-49076-8_1)
+##### **Authors**: Jose Luis Rojas-Aranda, Jose Ignacio Nunez-Varela, J. C. Cuevas-Tello & Gabriela Rangel-Ramirez 
+### Abstract and results:
+The study presents a method for fruit classification using Convolutional Neural Networks (CNN) to expedite the checkout process in stores. The method uses a unique dataset of images and incorporates color-related input features into the CNN architecture. The MobileNetV2 architecture was chosen for its lightweight nature, and the model was trained using transfer learning. The model using the single RGB color obtained the highest accuracy at 0.95 for unbagged and 0.93 for bagged fruits.
+### Methodology:
+**Dataset** (`Custom Dataset`, `1067 images (725 train, 342 test)`, `3 fruit classes`, `bagged, unbagged`) -> **CNN Architecture** (`MobileNetV2`) -> **Transfer Learning** (`Weights from a model trained with the ImageNet dataset`) -> **Improving MobileNetV2** (`Single RGB Fruit Color``, RGB Histogram``, RGB Centroid Using K-Means`)
+
+---
